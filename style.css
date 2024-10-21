@@ -5,6 +5,8 @@ html, body, * {
     font-family: "Roboto";
 }
 
+/* nav bar */
+
 header {
     background-color: #1F2937;
     display: flex;
@@ -27,4 +29,55 @@ header {
 .nav-bar li a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+/* hero */
+
+#hero-section {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    padding: 100px 5%;
+}
+
+#hero-section img {
+    border: 1px solid white;
+    height: 100%;
+    width: auto;
+    flex-grow: 2;
+    margin-left: 20px;
+    background-color: gray;
+}
+
+#hero-section div {
+    flex-grow: 1;
+    max-width: 50%;
+}
+
+#hero-section div h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#hero-section div p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #E5E7EB;
+}
+
+.sign-up-btn {
+    display: block;
+    background-color: #3882F6;
+    width: 100px;
+    height: auto;
+    border-radius: 3.5px;
+    padding: 5px 0;
+    margin-top: 30px;
+
+    text-align: center;
+    text-decoration: none;
+    color: #F9FAF8;
 }
