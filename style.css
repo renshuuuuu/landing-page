@@ -1,0 +1,16 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar li { 
+    display: inline;
+}
