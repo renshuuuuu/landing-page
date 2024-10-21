@@ -81,3 +81,39 @@ header {
     text-decoration: none;
     color: #F9FAF8;
 }
+
+/* random information */
+
+#random-info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    padding: 50px;
+}
+
+#random-info-section h2 {
+    margin-bottom: 40px;
+}
+
+#random-info-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+#random-info-container div {
+    margin: 20px;
+    width: 250px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#random-info-container img {
+    width: 80%;
+    height: 200px;
+    margin: 10%;
+
+    border: 1px solid black;
+}
